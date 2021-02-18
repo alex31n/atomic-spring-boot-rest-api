@@ -1,10 +1,11 @@
 # Atomic REST API
 A collection of boilerplate code and libraries for developing REST API with String Boot
 
-The aim of creating this peoject to reduce boilerplate code. It can help you to faster way develping CURD based Rest API and reduce more than 80% code.
+The aim of creating this project to reduce boilerplate code. It can help you to faster way developing CURD-based Rest API and reduce more than 80% of code.
 
 ## How to use
-Just create 4 class and extend base class. Just it
+Just create 4 class and extend their base class. Just it.
+
 #### Model
 ```java
 @Entity(name = "post")
