@@ -43,12 +43,12 @@ dependencies {
 	// https://github.com/perplexhub/rsql-jpa-specification
 	implementation 'io.github.perplexhub:rsql-jpa-spring-boot-starter:5.0.7'
 
-	// jwt token
+	// jwt token https://github.com/jwtk/jjwt
 	implementation("io.jsonwebtoken:jjwt-api:0.11.1")
 	runtimeOnly("io.jsonwebtoken:jjwt-impl:0.11.1")
 	runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.11.1")
 
-	// openapi-Swagger UI
+	// openapi-Swagger UI https://springdoc.org/
 	implementation "org.springdoc:springdoc-openapi-ui:1.5.0"
 	implementation "org.springdoc:springdoc-openapi-security:1.5.0"
 	implementation "org.springdoc:springdoc-openapi-data-rest:1.5.0"
